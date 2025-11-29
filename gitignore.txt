@@ -1,0 +1,29 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+myenv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables and secrets
+.env
+
+# Playwright downloaded browsers (if any)
+playwright/
+
+# OS and IDE-specific files
+.DS_Store
+*.swp
+*.swo
+
+# Lock files
+uv.lock
+
+# Jupyter notebooks and checkpoints (if used)
+.ipynb_checkpoints/
+
+# Miscellaneous logs
+*.log

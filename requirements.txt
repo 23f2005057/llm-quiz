@@ -1,0 +1,12 @@
+playwright
+requests
+pandas
+beautifulsoup4
+httpx
+fastapi
+uvicorn
+python-dotenv
+langgraph
+google-generativeai
+langchain
+langchain-google-genai

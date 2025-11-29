@@ -452,7 +452,7 @@ wheels = [
 ]
 
 [[package]]
-name = "google-genai"
+name = "google-generativeai"
 version = "1.51.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
@@ -465,9 +465,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c3/1c/29245699c7c274ed5709b33b6a5192af2d57da5da3d2f189f222d1895336/google_genai-1.51.0.tar.gz", hash = "sha256:596c1ec964b70fec17a6ccfe6ee4edede31022584e8b1d33371d93037c4001b1", size = 258060, upload-time = "2025-11-18T05:32:47.068Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c3/1c/29245699c7c274ed5709b33b6a5192af2d57da5da3d2f189f222d1895336/google_generativeai-1.51.0.tar.gz", hash = "sha256:596c1ec964b70fec17a6ccfe6ee4edede31022584e8b1d33371d93037c4001b1", size = 258060, upload-time = "2025-11-18T05:32:47.068Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c6/28/0185dcda66f1994171067cfdb0e44a166450239d5b11b3a8a281dd2da459/google_genai-1.51.0-py3-none-any.whl", hash = "sha256:bfb7d0c6ba48ba9bda539f0d5e69dad827d8735a8b1e4703bafa0a2945d293e1", size = 260483, upload-time = "2025-11-18T05:32:45.938Z" },
+    { url = "https://files.pythonhosted.org/packages/c6/28/0185dcda66f1994171067cfdb0e44a166450239d5b11b3a8a281dd2da459/google_generativeai-1.51.0-py3-none-any.whl", hash = "sha256:bfb7d0c6ba48ba9bda539f0d5e69dad827d8735a8b1e4703bafa0a2945d293e1", size = 260483, upload-time = "2025-11-18T05:32:45.938Z" },
 ]
 
 [[package]]
@@ -776,7 +776,7 @@ wheels = [
 ]
 
 [[package]]
-name = "langchain-google-genai"
+name = "langchain-google-generativeai"
 version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
@@ -785,9 +785,9 @@ dependencies = [
     { name = "langchain-core" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/76/b9/8c349bd9d671771e1ce67a902b42fb2a2abf04adbde03c682fdc64394e5e/langchain_google_genai-3.1.0.tar.gz", hash = "sha256:9497c0882c14f37964ae6e714050aa5903702afb3e61e6f241839d4e2ee7adb6", size = 239828, upload-time = "2025-11-18T17:04:01.434Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/76/b9/8c349bd9d671771e1ce67a902b42fb2a2abf04adbde03c682fdc64394e5e/langchain_google_generativeai-3.1.0.tar.gz", hash = "sha256:9497c0882c14f37964ae6e714050aa5903702afb3e61e6f241839d4e2ee7adb6", size = 239828, upload-time = "2025-11-18T17:04:01.434Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2d/02/affb854f67a31bc08995822031920166d8d29fd67e1b31712d45e3702492/langchain_google_genai-3.1.0-py3-none-any.whl", hash = "sha256:de076459a1a56f120c68465cad0e022a2ea1d3157bd8677e7b2061f0e1718bbb", size = 55638, upload-time = "2025-11-18T17:04:00.246Z" },
+    { url = "https://files.pythonhosted.org/packages/2d/02/affb854f67a31bc08995822031920166d8d29fd67e1b31712d45e3702492/langchain_google_generativeai-3.1.0-py3-none-any.whl", hash = "sha256:de076459a1a56f120c68465cad0e022a2ea1d3157bd8677e7b2061f0e1718bbb", size = 55638, upload-time = "2025-11-18T17:04:00.246Z" },
 ]
 
 [[package]]
@@ -1755,11 +1755,11 @@ source = { virtual = "." }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "fastapi" },
-    { name = "google-genai" },
+    { name = "google-generativeai" },
     { name = "jsonpatch" },
     { name = "langchain" },
     { name = "langchain-community" },
-    { name = "langchain-google-genai" },
+    { name = "langchain-google-generativeai" },
     { name = "langchain-openai" },
     { name = "langgraph" },
     { name = "pandas" },
@@ -1773,11 +1773,11 @@ dependencies = [
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.14.2" },
     { name = "fastapi", specifier = ">=0.121.3" },
-    { name = "google-genai", specifier = ">=0.17.0" },
+    { name = "google-generativeai", specifier = ">=0.17.0" },
     { name = "jsonpatch", specifier = ">=1.33" },
     { name = "langchain", specifier = ">=0.2.0" },
     { name = "langchain-community", specifier = ">=0.2.0" },
-    { name = "langchain-google-genai", specifier = ">=1.0.0" },
+    { name = "langchain-google-generativeai", specifier = ">=1.0.0" },
     { name = "langchain-openai", specifier = ">=1.1.0" },
     { name = "langgraph", specifier = ">=1.0.3" },
     { name = "pandas", specifier = ">=2.3.3" },
